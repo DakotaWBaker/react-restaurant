@@ -1,0 +1,70 @@
+html, body {
+    background: hsla(204, 44%, 13%, 1);
+
+    background: linear-gradient(45deg, hsla(204, 44%, 13%, 1) 73%, hsla(203, 100%, 39%, 1) 73%);
+    
+    background: -moz-linear-gradient(45deg, hsla(204, 44%, 13%, 1) 73%, hsla(203, 100%, 39%, 1) 73%);
+    
+    background: -webkit-linear-gradient(45deg, hsla(204, 44%, 13%, 1) 73%, hsla(203, 100%, 39%, 1) 73%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#12232E", endColorstr="#007CC7", GradientType=1 );
+    color: #FFFFFF;
+}
+.navbar-brand {
+    color: black;
+    
+}
+#card {
+    color:rgba(0, 0, 0, 1);
+}
+.navbar {
+    background-color: #E9E9E9
+}
+.price {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+.row1 {
+    padding-left: 0px !important;
+}
+.navButton {
+    border: none;
+   background-color: #E9E9E9
+
+
+}
+.header {
+    margin-top: 100px;
+}
+button {
+    border: none;
+    background-color: #EEFBFB;
+}
+#bf {
+    background-image: url(./breakfast.jpg);
+}
+#dinner {
+    background-image: url(./dinner.jpg);
+}
+#lunch {
+    background-image: url(./lunch.jpg)
+}
+#des {
+    background-image: url(./dessert.jpg);
+}
+#app {
+    background-image: url(./apps.jpg)
+}
+.menus {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 210px;
+    color: rgba(0, 0, 0, 1);
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
