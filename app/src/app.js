@@ -6,6 +6,9 @@ import Breakfast from './Breakfast';
 import Dessert from './Dessert';
 import axios from 'axios'
 import Navbar from './Navbar';
+import Hero from './Hero';
+import Home from './Home';
+import Footer from './Footer';
 const api = 'https://astute-baton-362318.ue.r.appspot.com/api/json/' 
 function Menu({ name, menuItems }) {
   const apps = menuItems.filter((el) => el.category.title === "Appetizer" ).map(item => <Appetizers  item={item} />);
@@ -83,6 +86,7 @@ function Menu({ name, menuItems }) {
   }
 }
 export default function App() {
+  const [page, setPage] = useState ('menu')
   const [menuItems, setMenuItems] = useState([]);
   const [menuType, setMenuType] = useState('appetizers')
     useEffect(() => {
@@ -92,13 +96,26 @@ export default function App() {
     }
     getData();
   }, []); 
-
-
+  
+  const nav = <Navbar page = {setPage} />
+  
+console.log(page)
+  if (page === 'home') {
+   return ( 
+    <>
+   <Home nav = {nav}/>
+    </>
+   )
+  }
+   else if (page === 'about') {
+    return <h1>About</h1> 
+   }
+   else {
 return (
   <>
   <div className = "container-fluid">
     <div className = "row">
-  <Navbar />
+  <Navbar page = {setPage}/>
   </div>
   </div>
   <div className = "container">
@@ -109,7 +126,7 @@ return (
          <div className = "col"> <button className ="menus" id = "dinner" onClick={() =>  setMenuType('dinner')}>Dinner</button></div>
          <div className = "col"> <button className ="menus"  id = 'lunch' onClick={() =>  setMenuType('lunch')}>Lunch</button> </div>
          <div className = "col"> <button className ="menus" id = 'app' onClick={() =>  setMenuType('appetizers')}>Appetizers</button></div>
-          <div className = "col"> <button className ="menus" id = 'des' onClick={() =>  setMenuType('dessert')}>Desserts</button></div>
+         <div className = "col"> <button className ="menus" id = 'des' onClick={() =>  setMenuType('dessert')}>Desserts</button></div>
          <div className = "col"><button className ="menus" id = 'bf' onClick={() =>  setMenuType('breakfast')}>Breakfast</button></div>  
          </div>
          </div>
@@ -118,12 +135,9 @@ return (
               name ={menuType}
               menuItems={menuItems}
             />
+            <Footer />
           </ul>
-          
-      </>
+     </>
     )
 }
-
-
-
-
+}

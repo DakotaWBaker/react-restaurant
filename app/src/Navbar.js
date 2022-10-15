@@ -1,12 +1,12 @@
 import React from 'react'
 
-export default function Navbar() {
+export default function Navbar(props) {
   return (
     <nav className="navbar navbar-expand-lg fixed-top nav">
     <div className="container-fluid">
-      <a className="navbar-brand" href="#">
-        Navbar
-      </a>
+      <button className="navbar-brand">
+       Happy Grillmore
+     </button>
       <button
         className="navbar-toggler"
         type="button"
@@ -21,17 +21,16 @@ export default function Navbar() {
       <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <button className='navButton'>
-              Home
-              </button>
+            <button className='navButton' onClick={() => props.page('home')}>Home</button>
+              
           </li>
           <li className="nav-item">
-          <button className='navButton'>
+          <button className='navButton' onClick={() => props.page('about')}>
               About
               </button>
           </li>
           <li className="nav-item">
-          <button className='navButton'>
+          <button className='navButton' onClick={() => props.page('menu')}>
               Menu
               </button>
           </li>
