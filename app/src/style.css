@@ -9,16 +9,19 @@ html, body {
     
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#12232E", endColorstr="#007CC7", GradientType=1 );
     color: #FFFFFF;
+    
 }
+
 .navbar-brand {
-    color: black;
+    background-color: #12232E;
+    color: white;
     
 }
 #card {
     color:rgba(0, 0, 0, 1);
 }
 .navbar {
-    background-color: #E9E9E9
+    background-color:#12232E;
 }
 .price {
     font-size: 15px;
@@ -28,10 +31,11 @@ html, body {
 .row1 {
     padding-left: 0px !important;
 }
-.navButton {
+.navButton  {
     border: none;
-   background-color: #E9E9E9
-
+   background-color: #12232E;
+   color: white;
+  margin-right: 30px;
 
 }
 .header {
@@ -67,4 +71,19 @@ button {
     border-radius: 6px;
     font-size: 1.5rem;
     font-weight: 500;
+}
+
+#vid {
+    padding: 0px !important;
+}
+.hero {
+    margin-top: 50px;
+}
+.hours {
+    background-color: white;
+    color: black;
+}
+.ops {
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
 }
