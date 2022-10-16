@@ -1,8 +1,11 @@
 import React from 'react'
 
+
+
+
 export default function Navbar(props) {
   return (
-    <nav className="navbar navbar-expand-lg fixed-top nav">
+    <nav className="navbar navbar-expand-xl fixed-top nav">
     <div className="container-fluid">
       <button className="navbar-brand">
        Happy Grillmore
@@ -50,4 +53,5 @@ export default function Navbar(props) {
 
   )
 }
+
 // mt-2 mt-md-0

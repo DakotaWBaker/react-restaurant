@@ -6,7 +6,8 @@ export default function Hero() {
     <>
     <div className="container-fluid hero">
       <div className="row" >
-      <video id = "vid" onLoad autoPlay loop >
+      <video id = "vid" autoPlay loop>
+      
     <source src = {vid} id = 'heroimg' type="video/mp4" />
     </video>
     </div>
