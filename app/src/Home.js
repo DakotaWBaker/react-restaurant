@@ -8,7 +8,6 @@ import Footer from "./Footer";
 export default function Home(props) {
   return (
    <>
-  <Navbar nav = {props.nav} />
     <Hero />
    <Hours />
    <Footer />

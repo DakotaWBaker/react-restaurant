@@ -1,27 +1,22 @@
 html, body {
-    background: hsla(204, 44%, 13%, 1);
+   background-color: #2d3142;
+   color: #FFFDFA;
+   font-family: 'Roboto', sans-serif;
+font-family: 'Share Tech Mono', monospace;
+font-size: 18px;
+}
 
-    background: linear-gradient(45deg, hsla(204, 44%, 13%, 1) 73%, hsla(203, 100%, 39%, 1) 73%);
-    
-    background: -moz-linear-gradient(45deg, hsla(204, 44%, 13%, 1) 73%, hsla(203, 100%, 39%, 1) 73%);
-    
-    background: -webkit-linear-gradient(45deg, hsla(204, 44%, 13%, 1) 73%, hsla(203, 100%, 39%, 1) 73%);
-    
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#12232E", endColorstr="#007CC7", GradientType=1 );
+.navbar-brand, .navbar, .navButton {
+    background-color: #4F5D75;
     color: #FFFFFF;
     
 }
-
-.navbar-brand {
-    background-color: #12232E;
-    color: white;
-    
-}
-#card {
+.card {
     color:rgba(0, 0, 0, 1);
+    border-color: #EF8354;
 }
 .navbar {
-    background-color:#12232E;
+    background-color: #4F5D75;
 }
 .price {
     font-size: 15px;
@@ -33,8 +28,6 @@ html, body {
 }
 .navButton  {
     border: none;
-   background-color: #12232E;
-   color: white;
   margin-right: 30px;
 
 }
@@ -43,7 +36,7 @@ html, body {
 }
 button {
     border: none;
-    background-color: #EEFBFB;
+    background-color: #4F5D75;
 }
 #bf {
     background-image: url(./breakfast.jpg);
@@ -86,4 +79,16 @@ button {
 .ops {
     border-bottom: 1px solid grey;
     padding-bottom: 20px;
+}
+.spinner-border {
+    color:  #EF8354;
+}
+.footer {
+   background-color: #4F5D75;
+}
+.menu {
+    background-color: #BFC0C0;
+}
+.menus {
+    margin-bottom: 20px;
 }
