@@ -4,6 +4,10 @@ import Lunch from './Lunch';
 import Dinner from './Dinner';
 import Breakfast from './Breakfast';
 import Dessert from './Dessert';
+import dayjs from 'dayjs';
+let now = dayjs();
+let time = now.format("h:mm:ss a");
+console.log(time.toLocaleString())
 
 
 
@@ -55,7 +59,7 @@ export default function Menu({ name, menuItems, menuType,props }) {
       </div>
       </>
       )
-    } else if (name == 'appetizers') {
+    } else if (time > Date.parse('5:00:00 pm') || name == 'appetizers' ) {
       return (
         <>
         <div className = "container-fluid">
@@ -123,7 +127,7 @@ export default function Menu({ name, menuItems, menuType,props }) {
     <div className = "container menu">
      <div className = "row mb">
       <div className = "col text-center">
-        <h2>Lunch</h2> 
+        <h2>lunch</h2> 
         </div>
      </div>
       <div className = "row">
@@ -141,7 +145,7 @@ export default function Menu({ name, menuItems, menuType,props }) {
       </div>
       <div className = "container menu">
       <div className = "row text-center header">
-      <h1>Menu</h1>
+      <h1 className='menu' >Menu</h1>
       </div>
       <div className = "row text-center mb-5">
              <div className = "col"> <button className ="menus" id = "dinner" onClick={() =>  menuType('dinner')}>Dinner</button></div>
@@ -161,7 +165,7 @@ export default function Menu({ name, menuItems, menuType,props }) {
     <div className = "container menu">
      <div className = "row">
       <div className = "col text-center">
-        <h2>Breakfast</h2> 
+        <h2 className='menu'>Breakfast</h2> 
         </div>
      </div>
       <div className = "row">

@@ -8,20 +8,20 @@ export default function Hours() {
     <h1> Hours of operation</h1>
     <div className = 'row justify-content-center mt-5'>
     <div className = 'col-3 '>
-    <p class ="ops"> Monday-Thursday 10 a.m. - 8 p.m. </p>
+    <p class ="ops"> Monday-Thursday 8 a.m. - 8 p.m. </p>
     </div>
     </div>
     <div className = 'row justify-content-center'>
     <div className = 'col-3 '>
-    <p className ="ops"> Friday 10 a.m. - 11p.m. </p>
+    <p className ="ops"> Friday 8 a.m. - 11p.m. </p>
     </div>
     </div><div className = 'row justify-content-center'>
     <div className = 'col-3 '>
-    <p className ="ops"> Saturday 10 a.m. - 11 p.m. </p>
+    <p className ="ops"> Saturday 8 a.m. - 11 p.m. </p>
     </div>
     </div><div className = 'row justify-content-center'>
     <div className = 'col-3 '>
-    <p className='mb-5'> Sunday 10 a.m. - 10 p.m. </p>
+    <p className='mb-5'> Sunday 8 a.m. - 10 p.m. </p>
     </div>
     </div>
     </div>
