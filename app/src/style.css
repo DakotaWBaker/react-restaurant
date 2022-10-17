@@ -7,17 +7,20 @@ font-size: 18px;
 }
 
 .navbar-brand, .navbar, .navButton {
-    background-color: #4F5D75;
+    background-color: transparent;
     color: #FFFFFF;
     
+}
+.navbar-active {
+    background-color: #4F5D75;;
 }
 .card {
     color:rgba(0, 0, 0, 1);
     border-color: #EF8354;
 }
-.navbar {
+/* .navbar {
     background-color: #4F5D75;
-}
+} */
 .price {
     font-size: 15px;
     font-weight: 400;
@@ -68,10 +71,9 @@ button {
 
 #vid {
     padding: 0px !important;
+    
 }
-.hero {
-    margin-top: 50px;
-}
+
 .hours {
     background-color: white;
     color: black;
@@ -95,4 +97,19 @@ button {
 .map-container {
     width: 100%;
     height: 50vh;
+}
+.menu {
+    color: black;
+}
+#logos {
+    height: 25px;
+    width: 25px;
+}
+.explore {
+    color: #EF8354
+}
+.diningpics {
+    height: 300px;
+    width: 400px;
+    margin-bottom: 20px;
 }
