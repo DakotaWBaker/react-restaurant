@@ -11,7 +11,7 @@ import Home from "./Home";
 import Footer from "./Footer";
 import Menu from "./Menu";
 import Loading from "./Loading";
-const api = "https://astute-baton-362318.ue.r.appspot.com/api/json/";
+const api = "https://8000-dakotawbake-backendbist-uxm570ggtlh.ws-us75.gitpod.io/menu/fullmenu";
 
 export default function App() {
   const [page, setPage] = useState("home");
@@ -27,16 +27,18 @@ export default function App() {
   }, []);
 
   console.log(page);
-  if (menuItems.length === 0) {
-    return <Loading />;
-  } else if (page === "home") {
+  // if (menuItems.length === 0) {
+  //   return <Loading />;
+  // } 
+   if (page === "home") {
     return (
       <>
         <Navbar page={setPage} />
         <Home />
       </>
     );
-  } else if (page === "about") {
+  } 
+  else if (page === "about") {
     return <h1>About</h1>;
   } else if (page === "menu") {
     return (

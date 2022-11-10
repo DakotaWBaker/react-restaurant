@@ -15,7 +15,7 @@ console.log(time.toLocaleString())
 
 
 export default function Menu({ name, menuItems, menuType,props }) {
-    const apps = menuItems.filter((el) => el.category.title === "Appetizer").map(item => <Appetizers  item= {item} />);
+    const apps = menuItems.filter((el) => el.category.title === "Appetizers").map(item => <Appetizers  item= {item} />);
     const lunch= menuItems.filter((el) => el.category.title === "Lunch" ).map(item => <Lunch  item= {item} />);
     const din= menuItems.filter((el) => el.category.title === "Dinner" ).map(item => <Dinner  item= {item} />);
     const breakfast= menuItems.filter((el) => el.category.title === "Breakfast" ).map(item => <Breakfast  item= {item} />);
