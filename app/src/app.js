@@ -27,9 +27,7 @@ export default function App() {
   }, []);
 
   console.log(page);
-  if (menuItems.length === 0) {
-    return <Loading />;
-  } else if (page === "home") {
+  if (page === "home") {
     return (
       <>
         <Navbar page={setPage} />
