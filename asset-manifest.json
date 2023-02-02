@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-restaurant/static/css/main.57254ffc.css",
+    "main.js": "/react-restaurant/static/js/main.c4eff5a6.js",
+    "static/media/dining2.jpg": "/react-restaurant/static/media/dining2.2be25b30d6fc89ba410f.jpg",
+    "static/media/dining6.jpg": "/react-restaurant/static/media/dining6.496eb3fe4d69e349dbe8.jpg",
+    "static/media/dining5.jpg": "/react-restaurant/static/media/dining5.27a72eb75fd6c357ce66.jpg",
+    "static/media/apps.jpg": "/react-restaurant/static/media/apps.4388a785e825519ced7f.jpg",
+    "static/media/breakfast.jpg": "/react-restaurant/static/media/breakfast.4e42f6a5fc9111d36750.jpg",
+    "static/media/dining1.jpg": "/react-restaurant/static/media/dining1.5373b999e851736e6089.jpg",
+    "static/media/dining3.jpg": "/react-restaurant/static/media/dining3.0d1d9f991835832b52b2.jpg",
+    "static/media/dessert.jpg": "/react-restaurant/static/media/dessert.dc6c98c505f769c9356c.jpg",
+    "static/media/dinner.jpg": "/react-restaurant/static/media/dinner.159d2a9cb1d3e08a1b9d.jpg",
+    "static/media/dining4.jpg": "/react-restaurant/static/media/dining4.dad9d65c32fe0382ede7.jpg",
+    "static/media/lunch.jpg": "/react-restaurant/static/media/lunch.fc7a1e40fead91890c16.jpg",
+    "static/media/Happy Grillmore.mp4": "/react-restaurant/static/media/Happy Grillmore.f4aa3d89efedd8a49b0c.mp4",
+    "index.html": "/react-restaurant/index.html",
+    "static/media/location.svg": "/react-restaurant/static/media/location.86c6ce106632f85008d5f47b2f06cdfc.svg",
+    "static/media/Phone.svg": "/react-restaurant/static/media/Phone.50385e10d48918007196969a51503d41.svg",
+    "static/media/Email.svg": "/react-restaurant/static/media/Email.95dcc79fa3dff2d56d7d3fd51d6ea1d5.svg",
+    "main.57254ffc.css.map": "/react-restaurant/static/css/main.57254ffc.css.map",
+    "main.c4eff5a6.js.map": "/react-restaurant/static/js/main.c4eff5a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57254ffc.css",
+    "static/js/main.c4eff5a6.js"
+  ]
+}
